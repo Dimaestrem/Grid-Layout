@@ -1,5 +1,133 @@
-{
+* {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
   }
+
+main {
+    font-family: Verdana, sans-serif;
+    font-size: small;
+}
+  .header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom-style:  ;
+    letter-spacing: 20px;
+    padding: 10px;
+    box-shadow: 0px 5px 50px rgba(0, 0, 0, 0.9);
+    z-index: auto;
+  }
+header {
+   
+  
+}
+header button {
+
+border: none;
+outline: none;
+background-color: white;
+  }
+
+  .main-page {
+
+  }
+
+  .projects-about-contacts {
+margin-left: auto;
+
+  }
+.main-image {
+   z-index: -1;
+    width: 100%;;
+} 
+  .outer-container b {
+    background-color: black;
+    padding: 10px;
+position: absolute;
+    
+  }
+
+  .grid-parrent {
+    display: grid;
+    grid-template-columns: 24% 24% 24% 24%;
+    grid-template-rows: 225px 225px;
+    gap: 20px;
+  }
+.projects {
+    padding: 30px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-color: rgb(241, 241, 241);
+    margin-bottom: 20px;
+}
+
+  .inner-block1 {
+    background-image: url(../images/summer\ house\ 1.jpg);
+
+    background-size: cover;
+    color: white;
+  }
+  .inner-block2 {
+    background-image: url(../images/brick\ house\ 1.jpg);
+   background-size: cover;
+   color: white;
+  }
+  .inner-block3 {
+    background-image: url(../images/renovated\ 1.jpg);
+    background-size: cover;
+    color: white;
+  }
+  .inner-block4 {
+    background-image: url(../images/barn\ house\ 1.jpg);
+    background-size: cover;
+    color: white;
+  }
+.inner-block5 {
+background-image: url(../images/summer\ house\ 2.jpg);
+background-size: cover;
+color: white;
+}
+
+.inner-block6 {
+    background-image: url(../images/brick\ house\ 2.jpg);
+    background-size: cover;
+    color: white;
+}
+
+.inner-block7 {
+    background-image: url(../images/renovated\ 2.jpg);
+    background-size: cover;
+    color: white;
+}
+
+.inner-block8 {
+background-image: url(../images/barn\ house\ 2.jpg);
+background-size: cover;
+color: white;
+}
+
+  .grid-child {
+  background-color: black;
+  }
+h1 b {
+    color: white;
+    background-color: black;
+    padding: 5px;
+}
+
+h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.contacts {
+    display: grid;
+    grid-template-columns: 24% 24% 24% 24%;
+    grid-template-rows: 225px;
+    gap: 20px;
+}
+.contacts img {
+    width: 100%;
+
+}
